@@ -1,5 +1,5 @@
 import React from "react";
-
+import styles from "../Addproduct.module.css"
 const AddProduct = ({data,setData,trig,setTrig}) => {
   // TODO: Remove below const and instead import them from chakra
   // const Button = () => <div />;
@@ -37,8 +37,8 @@ const AddProduct = ({data,setData,trig,setTrig}) => {
   
   }
   return (
-    <>
-      <button onClick={producthandle} data-cy="add-product-button">Add new product</button>
+    <div className={styles.addprod}>
+      <button className={styles.btn} onClick={producthandle} data-cy="add-product-button">Add new product</button>
       { showform ? <div>
               <form onSubmit={handlesubmit}>
         
@@ -61,7 +61,7 @@ const AddProduct = ({data,setData,trig,setTrig}) => {
       </div>: <></>}
       
       
-    </>
+    </div>
   );
 };
 

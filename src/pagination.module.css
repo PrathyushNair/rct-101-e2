@@ -1,0 +1,13 @@
+.pagination{
+
+    text-align: center;
+    width:40%;
+    margin:auto;
+}
+.btn{
+    color:white;
+    background-color: darkcyan;
+    border:none;
+    margin-right: 5px;
+
+}

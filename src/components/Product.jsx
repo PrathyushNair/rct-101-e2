@@ -11,7 +11,7 @@ const Product = ({el}) => {
   // const TagLabel = () => <div />;
   return (
     <div key ={el.id}data-cy="product">
-        <img style={{width:"100%"}} src="https://picsum.photos/seed/picsum2/421/261" data-cy="product-image" />
+        <img alt="product" style={{width:"100%",borderRadius: "10px"}} src="https://picsum.photos/seed/picsum2/421/261" data-cy="product-image" />
         <h3 data-cy="product-category">{el.category}</h3>
         <div>
           <h3 data-cy="product-gender">{el.gender}</h3>
