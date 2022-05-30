@@ -1,0 +1,6 @@
+.griddiv{
+    display:grid;
+    border:1px solid red;
+    grid-template-columns: repeat(3,1fr);
+    
+}
