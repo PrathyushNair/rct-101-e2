@@ -31,7 +31,7 @@ const AddProduct = ({data,setData,trig,setTrig}) => {
         })
     }
     else{
-      alert("empty filed detected")
+      alert("Please fill all field")
     }
     setShowform(!showform)
   

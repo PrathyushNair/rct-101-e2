@@ -5,7 +5,7 @@ return (
     <div className={style.pagination}>
       <button className={style.btn}onClick={()=>{setPage(1)
       setTrig(!trig)}} data-cy="pagination-first-button">First</button>
-      <button className={style.btn}onClick={()=>{setPage(page-1)
+      <button disabled={page<=1} style={{backgroundColor:  page<=1 && "white"}} className={style.btn}onClick={()=>{setPage(page-1)
       setTrig(!trig)}} data-cy="pagination-previous-button">Previous</button>
       <select className={style.btn}onChange={(e)=>{setLimit(e.target.value)
       setTrig(!trig)}} data-cy="pagination-limit-select">
