@@ -70,6 +70,30 @@
       "price": "300",
       "imageSrc": "https://picsum.photos/seed/picsum2/421/261",
       "id": 9
+    },
+    {
+      "image": "",
+      "title": "mens jeans",
+      "category": "jeans",
+      "gender": "Male",
+      "price": "2000",
+      "id": 10
+    },
+    {
+      "imageSrc": "https://picsum.photos/seed/picsum2/421/261",
+      "title": "Men jean",
+      "category": "jeans",
+      "gender": "Male",
+      "price": "300000",
+      "id": 11
+    },
+    {
+      "imageSrc": "https://picsum.photos/seed/picsum2/421/261",
+      "title": "female shirts",
+      "category": "Shirt",
+      "gender": "Female",
+      "price": "1000",
+      "id": 12
     }
   ]
 }
